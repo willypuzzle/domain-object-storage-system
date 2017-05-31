@@ -6,7 +6,8 @@ var path = require('path');
 module.exports.run = function (worker) {
   console.log('   >> Worker PID:', process.pid);
 
-  var app = require('express')();
+  //var app = require('express')();
+  var app = require('./express/app');
 
   var httpServer = worker.httpServer;
   var scServer = worker.scServer;
