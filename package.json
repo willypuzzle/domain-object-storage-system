@@ -26,5 +26,9 @@
     "persistent"
   ],
   "readmeFilename": "README.md",
-  "license" : "LGPL-3.0"
+  "license" : "LGPL-3.0",
+  "repository": {
+     "type": "git",
+     "url": "https://github.com/willypuzzle/domain-object-storage-system.git"
+  }
 }
